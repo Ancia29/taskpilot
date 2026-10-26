@@ -1,0 +1,10 @@
+@"
+.venv/
+venv/
+__pycache__/
+.env
+instance/
+*.db
+*.sqlite
+.pytest_cache/
+"@ | Add-Content .gitignore
